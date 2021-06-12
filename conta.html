@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<!--分頁顯示的名稱 A-3 -->
+	<title>聯絡我們</title>
+</head>
+<!--  引入自己寫的CSS  A-2-->
+<style>
+    .container{
+		columns: -6px;
+	}
+	.aa{
+		margin-top: 20px;
+	}
+	table{
+		margin-top: 20px;
+	}
+</style>
+
+	
+	
+<!--ctrl+/ 打註解 : 這4個link 是給 bootstrap用的 B-1 -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	 
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+       
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	
+
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>	
+	  
+<body>
+	<section>
+		<img src="img/102.png" width="100%" alt="">
+	</section>
+
+<section id="bar">
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<div class="navbar-nav mr-auto">
+						<!--class中的 avtive 代表被選擇中，所以在index.html中，active效果要放在"首頁"這個字上，在intro.html中，active效果要放在"自我介紹"這個字上-->
+					<a class="nav-item nav-link" href="index.html"> 首頁 <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="qa.html">品牌介紹</a>
+					<a class="nav-item nav-link" href="intro.html">相關產品</a>
+					<a class="nav-item nav-link active" href="conta.html">聯絡我們</a>
+					</div>
+				
+
+			</div>
+			
+		</nav>
+		<section>
+			<img src="img/301.png" width="100%" alt="">
+		</section>
+		
+
+
+
+
+<section id="location">
+<div class="container">
+	<div class="row">
+		<div class="col-8 offset-2">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.459998354589!2d121.340163114608!3d24.98448078399558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681e8f88001f51%3A0xde8e62ebe5442d75!2z6YqY5YKz5aSn5a24Leahg-Wckum-nOWxseagoeWNgA!5e0!3m2!1szh-TW!2stw!4v1622098981362!5m2!1szh-TW!2stw" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+	</div>
+</div>	
+</section>
+<section class="aa">
+	<h1>加入招募</h1>
+	
+	</section>
+<section>
+	<div class="container">
+		
+		<form class="row g-3">
+			<div class="col-md-6">
+			  <label for="inputEmail4" class="form-label">Email</label>
+			  <input type="email" class="form-control" id="inputEmail4">
+			</div>
+			<div class="col-md-6">
+			  <label for="inputPassword4" class="form-label">Password</label>
+			  <input type="password" class="form-control" id="inputPassword4">
+			</div>
+			<div class="col-12">
+			  <label for="inputAddress" class="form-label">Address</label>
+			  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+			</div>
+			<div class="col-12">
+			  <label for="inputAddress2" class="form-label">Address 2</label>
+			  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+			</div>
+			<div class="col-md-6">
+			  <label for="inputCity" class="form-label">City</label>
+			  <input type="text" class="form-control" id="inputCity">
+			</div>
+			<div class="col-md-4">
+			  <label for="inputState" class="form-label">State</label>
+			  <select id="inputState" class="form-select">
+				<option selected>Choose...</option>
+				<option>...</option>
+			  </select>
+			</div>
+			<div class="col-md-2">
+			  <label for="inputZip" class="form-label">Zip</label>
+			  <input type="text" class="form-control" id="inputZip">
+			</div>
+			<div class="col-12">
+			  <div class="form-check">
+				<input class="form-check-input" type="checkbox" id="gridCheck">
+				<label class="form-check-label" for="gridCheck">
+				  Check me out
+				</label>
+			  </div>
+			</div>
+			<div class="col-12">
+			  <button type="submit" class="btn btn-primary">Sign in</button>
+			</div>
+		  </form>
+	</div>
+	</section>
+<section>
+
+	<table width="882" border="0" align="center" cellpadding="0" cellspacing="0">
+		<tr>
+		  <td class="copyright" style="border-top:#ffffff 2px solid; padding:15px 0 15px 0; ">銘傳股份有限公司 版權所有 轉載必究 Copyright &copy; mcu6666 International Co.,Ltd All Righty Reserved. <br />
+			   333桃園市龜山區德明路5號　  加盟專線 : 6666-666-666　客服專線 : 6666-666-666　週一~週五9:00~18:00　客服信箱 : <a href="mailto:eservice@comebuy2002.com.tw">mcu@mcumcu6666.com.tw </a><br /></td>
+		  <td align="right" class="copyright" style="border-top:#f8f8f8 2px solid; padding:15px 0 15px 0; "><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.comebuy2002.com.tw%2F&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=32" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:32px;" allowTransparency="true"></iframe></td>
+		</tr>
+	  </table>
+  </section>
+</body>
+</html>
